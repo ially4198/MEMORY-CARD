@@ -54,7 +54,7 @@ const Cards = ({
   };
   return (
     <div
-      className="card-wrapper w-[40px] h-[40px] sm:w-[50px] sm:h-[50px] md:w-[60px] md:h-[60px] mx-auto"
+      className="card-wrapper w-[40px] h-[40px] sm:w-[50px] sm:h-[50px] md:w-[60px] md:h-[60px] mx-auto cursor-pointer"
       onClick={handleFlip}
       style={{
         visibility: card.matched ? "hidden" : "visible",
